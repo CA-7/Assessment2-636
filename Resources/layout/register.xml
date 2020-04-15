@@ -1,0 +1,105 @@
+﻿<LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="First name:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/firstname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/editFirstName"
+        android:hint="Enter name"/>
+
+    <TextView
+        android:text=" Last name:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/editLastName"
+        android:layout_marginBottom="0.0dp"
+        android:hint="Enter name"/>
+
+    <TextView
+        android:text=" Phone number:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/editPhoneNumber"
+        android:hint="Enter number"/>
+
+    <TextView
+        android:text=" Address:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/editAddress"
+        android:hint="Enter address"/>
+
+    <TextView
+        android:text=" Country:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/country" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/editCountry" 
+        android:hint="Enter country"/>
+
+    <TextView
+        android:text=" Username:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/editUserName" />
+    <TextView
+        android:text=" Password:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/editPassword" 
+        android:inputType="none|textPassword" />
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegister"/>
+    
+    
+</LinearLayout >

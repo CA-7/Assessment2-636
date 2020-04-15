@@ -1,0 +1,97 @@
+﻿
+ 
+  
+ <RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">   
+
+    <TextView
+        android:id="@+id/Theitem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item1"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/Price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Seller1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Phonenumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phonen umber: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/E-mail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail1: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/Back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+         <Button
+        android:id="@+id/SMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+    </LinearLayout>
+ </RelativeLayout>
+
+
+   
+

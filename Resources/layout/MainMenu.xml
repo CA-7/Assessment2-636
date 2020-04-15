@@ -1,0 +1,59 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+        android:id="@+id/Introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These are our goods, if you want to buy it, just click the button below:"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+  <Button
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="item1"
+        android:gravity="fill"
+        android:textSize="18dp"
+    />
+    <LinearLayout
+
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:weightSum="3"
+      >
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_home"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:padding="5dp"/>
+
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_shop"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:padding="5dp"/>
+
+     <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:gravity="center"
+        android:text="@string/title_map"
+        android:clickable="true"
+        android:layout_weight="1"   
+        android:padding="5dp"/>
+</LinearLayout>
+ </LinearLayout>
